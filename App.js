@@ -4,7 +4,7 @@ import {
   Text, 
   View 
 } from 'react-native';
-//import { createTabNavigator } from 'react-navigation';
+import { createTabNavigator } from 'react-navigation';
 import EstadoCuenta  from './src/components/EstadoCuenta';
 
 

@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     header:{
         backgroundColor:'#455A64',
         flex:1,
-        width: '100%',
+        width: 300,
         //borderWidth:1,
         marginTop:10,
         justifyContent: 'center',
