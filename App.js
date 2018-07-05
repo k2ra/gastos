@@ -4,8 +4,9 @@ import {
   Text, 
   View 
 } from 'react-native';
-
+//import { createTabNavigator } from 'react-navigation';
 import EstadoCuenta  from './src/components/EstadoCuenta';
+
 
 export default class App extends React.Component {
   render() {
