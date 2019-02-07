@@ -6,13 +6,14 @@ import {
 } from 'react-native';
 import { createTabNavigator } from 'react-navigation';
 import EstadoCuenta  from './src/components/EstadoCuenta';
+import Dashboard from './src/components/Dashboard';
 
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <EstadoCuenta/>
+        <Dashboard/>
       </View>
     );
   }
@@ -24,5 +25,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  
   },
 });
